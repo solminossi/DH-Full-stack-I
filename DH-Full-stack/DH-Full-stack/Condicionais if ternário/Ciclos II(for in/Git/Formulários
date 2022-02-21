@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>Primeiro formulario</title>
+  </head>
+  <body>
+    <form action="resultado.html"method="POST">
+    </form>
+    <!-- escreva seu código aqui -->
+  </body>
+</html>
+
+
+
+
+<html>
+  <head>
+    <title>Campos no formulario</title>
+  </head>
+  <body>
+    <form action="resultado.html" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text"name="nome"id="nome">
+    <!-- escreva seu código aqui -->
+    </form>
+  </body>
+</html>
+
+
+
+
+<html>
+
+<head>
+	<title>Formulario de registro</title>
+</head>
+
+<body>
+	<form action="resultado.html" method="POST">
+		<p> 
+            <label for="name">Nome:</label>
+            <input type="text"name="nome"id="nome">
+            
+           
+
+			<!-- campo para o nome -->
+		</p>
+
+		<p>
+             <label for="email">E-mail</label>
+            <input type="email"name="email"id="email">
+			<!-- campo para o email -->
+		</p>
+
+		<p>
+            <label for="password">senha:</label>
+            <input type="password" name="senha"id="senha">
+			<!-- campo para a senha -->
+		</p>
+	</form>
+</body>
+
+</html>

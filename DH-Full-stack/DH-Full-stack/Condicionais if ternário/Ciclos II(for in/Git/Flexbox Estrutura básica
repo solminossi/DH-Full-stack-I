@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Flexbox</title>
+  </head>
+  <body>
+    <ul class="nav-bar">
+          <li><a href="">Home |</a></li>
+          <li><a href="">Contato |</a></li>
+          <li><a href="">Preguntas frequentes |</a></li>
+          <li><a href="">Fale com a gente |</a></li>
+      </ul>
+  </body>
+</html>
+
+
+.nav-bar {
+    display: flex;
+    
+      
+  }
+
+
+
+
+  <html>
+  <head>
+    <title>Flexbox</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="caixa-1">caixa 1</div>
+        <div class="caixa-2">caixa 2</div>
+        <div class="caixa-3">caixa 3</div>
+        <div class="caixa-4">caixa 4</div>
+        <div class="caixa-5">caixa 5</div>
+        <div class="caixa-6">caixa 6</div>
+    </div>
+  </body>
+</html>
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+  
+    
+}

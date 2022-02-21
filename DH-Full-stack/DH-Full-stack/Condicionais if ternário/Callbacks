@@ -1,0 +1,43 @@
+function dobro(valor){
+return valor *2
+}
+function triplo(valor){
+    return valor *3
+}
+function aplicar(numero , callback){
+    return callback(numero)
+}
+
+
+
+
+
+
+const somar = (numero1, numero2) => numero1 + numero2;
+const subtrair = (numero1, numero2) => numero1 - numero2;
+const multiplicar = (numero1, numero2) => numero1 * numero2;
+const dividir = (numero1, numero2) => numero1/numero2;
+
+const calculadora =(numero1, numero2, callback) => callback(numero1,numero2);
+
+console.log(calculadora(1, 1, somar));
+console.log(calculadora(1, 1, subtrair));
+console.log(calculadora(1, 10, multiplicar));
+console.log(calculadora(10, 5, dividir));
+
+
+
+
+
+
+
+function adicionarHttp(url) {
+    return String("http://"+url)
+}
+function processar(lista,callback){
+    let resul = []
+    for (let i=0; i <= lista.length-1; i++){
+         resul.push(callback(lista[i]))
+    }
+    return resul
+}

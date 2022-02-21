@@ -1,0 +1,19 @@
+let dado = true;
+console.log(dado);
+
+if(dado == true){
+    console.log(dado);
+}else {
+    console.log(dado);
+}
+
+
+
+
+let linguagem = "javascript"
+
+if(linguagem === "javascript"){
+    console.log("Estou aprendendo");
+}else{
+    console.log("Vou aprender mais pra frente");
+}

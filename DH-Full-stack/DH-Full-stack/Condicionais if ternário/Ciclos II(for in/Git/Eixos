@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title>Flexbox</title>
+</head>
+<body>
+  <div class="frase-cortazar">
+      <div class="parte-6">incomodas."</div>
+      <div class="parte-5">são particularmente</div>
+      <div class="parte-4">ou de lado</div>
+      <div class="parte-3">pois de costas</div>
+      <div class="parte-2">se sobem de frente,</div>
+      <div class="parte-1">"As escadas</div>
+    </div>
+</body>
+</html>
+
+
+.frase-cortazar {
+    display:flex;
+    width: 250px;
+    flex-wrap:wrap;
+    flex-direction:column-reverse;
+    
+  
+  
+  }

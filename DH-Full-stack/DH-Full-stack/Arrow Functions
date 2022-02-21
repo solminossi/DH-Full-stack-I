@@ -1,0 +1,14 @@
+//arrow function
+let cincoNumeros = () => {
+return [cincoNumeros]
+};
+//arrow function
+let multiplicarPorDois = () => {
+  return 123 * 2;
+}
+//arrow function
+let mostrarNome = () =>{
+ return 'Meu nome é Ryan Dahl';{
+
+}
+}

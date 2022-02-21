@@ -1,0 +1,36 @@
+<html>
+    <head>
+    <title>Título da página</title>
+    </head>
+    <body>
+        <h1 style="">Faz com que o quadrado se transforme em círculo</h1>
+        <div class="meu-elemento">
+        </div>
+    </body>
+</html>
+
+
+.meu-elemento {
+    width: 200px;
+      height: 200px;
+      position: relative;
+      border-radius: 100%;
+      animation-name: diminuindo;
+      animation-duration:1000ms;
+     
+      
+      
+  }
+   
+  
+  @keyframes diminuindo {
+      0% {
+          background-color: salmon;
+          animation-name: diminuindo;
+          animation-duration:1000ms;
+      }
+      
+      
+  }
+  
+  
